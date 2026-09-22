@@ -61,10 +61,10 @@ solvent/
 - [x] Repo scaffold, config-driven structure
 - [x] `src/utils/logging.py` — structured logging, deduped handlers, tested
 - [x] `src/utils/exceptions.py` — custom exception with filename + line-number tracing, tested
-- [ ] `src/entity/` — ingestion config + artifact dataclasses
-- [ ] `src/components/data_ingestion.py`
-- [ ] `src/pipeline/training_pipeline.py` (ingestion wired in)
-- [ ] `tests/test_ingestion.py`
+- [x] `src/entity/` — ingestion config + artifact dataclasses
+- [x] `src/components/data_ingestion.py`
+- [x] `src/pipeline/training_pipeline.py` (ingestion wired in)
+- [x] `tests/test_ingestion.py`
 - [ ] Data ingestion: PaySim + synthetic transaction generator
 - [ ] Cleaning: dedup, fuzzy vendor matching, outlier flagging
 - [ ] DVC — data + model versioning
